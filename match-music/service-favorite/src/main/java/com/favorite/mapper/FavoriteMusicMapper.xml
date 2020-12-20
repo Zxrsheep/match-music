@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.favorite.mapper.FavoriteMusicDao" >
+
+    <resultMap id="FavoriteMusic" type="com.favorite.entity.FavoriteMusic">
+        <id column="favorite_id" property="favorite_id"/>
+        <result column="music_id" property="music_id"/>
+        <result column="date" property="date"/>
+    </resultMap>
+
+    <insert id="create" parameterType="com.favorite.entity.FavoriteMusic">
+        insert into favorite_music(favorite_id,music_id,date)
+        values(#{favorite_id},#{music_id},now())
+    </insert>
+
+    <insert id="delete">
+         delete from favorite_music
+        <include refid="MusicFindCriteria"/>
+    </insert>
+
+    <sql id="MusicFindCriteria">
+        <where>
+            <if test="favorite_id != null and favorite_id != ''">and favorite_id = #{favorite_id}</if>
+            <if test="music_id != null and music_id != ''">and music_id = #{music_id}</if>
+        </where>
+    </sql>
+
+    <sql id="MusicUpdateCriteria">
+        <set >
+            <if test="updateFavorite_id != null">favorite_id = #{updateFavorite_id},</if>
+            <if test="updateMusic_id != null">music_id = #{updateMusic_id},</if>
+            <if test="updateDate != null">date = now(),</if>
+        </set>
+    </sql>
+
+    <update id="update">
+        update favorite_music
+        <include refid="MusicUpdateCriteria"></include>
+        <include refid="MusicFindCriteria"></include>
+    </update>
+
+    <select id="query" resultMap="FavoriteMusic">
+        select * from favorite_music
+        <include refid="MusicFindCriteria"></include>
+    </select>
+
+    <select id="detail" resultMap="FavoriteMusic">
+        select * from favorite_music
+        <include refid="MusicFindCriteria"></include>
+        limit 1
+    </select>
+
+    <select id="count" resultType="int">
+        select count(*) from favorite_music
+        <include refid="MusicFindCriteria"></include>
+    </select>
+
+</mapper>

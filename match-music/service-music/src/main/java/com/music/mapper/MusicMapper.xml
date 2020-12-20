@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.music.mapper.MusicDao" >
+
+    <resultMap id="Music" type="com.music.entity.Music">
+        <id column="id" property="id"/>
+        <result column="user_id" property="user_id"/>
+        <result column="name" property="name"/>
+        <result column="cover_url" property="cover_url"/>
+        <result column="singer_name" property="singer_name"/>
+        <result column="singer_info" property="singer_info"/>
+        <result column="lyric" property="lyric"/>
+        <result column="singer_photo" property="singer_photo"/>
+        <result column="story" property="story"/>
+        <result column="play_url" property="play_url"/>
+    </resultMap>
+
+    <insert id="create" parameterType="com.music.entity.Music">
+        insert into tb_music(user_id,name,cover_url,singer_name,singer_info,lyric,singer_photo,story,play_url)
+        values(#{user_id},#{name},#{cover_url},#{singer_name},#{singer_info},#{lyric},#{singer_photo},#{story},#{play_url})
+    </insert>
+
+    <insert id="delete">
+         delete from tb_music
+        <include refid="MusicFindCriteria"/>
+    </insert>
+
+    <sql id="MusicFindCriteria">
+        <where>
+            <if test="id != null and id != ''">and id = #{id}</if>
+            <if test="user_id != null and user_id != ''">and user_id = #{user_id}</if>
+            <if test="name != null and name != ''">and name = #{name}</if>
+            <if test="singer_name != null and singer_name != ''">and singer_name = #{singer_name}</if>
+        </where>
+    </sql>
+
+    <sql id="MusicUpdateCriteria">
+        <set >
+            <if test="updateUser_id != null">user_id = #{updateUser_id},</if>
+            <if test="updateName != null">name = #{updateName},</if>
+            <if test="updateSinger_name != null">singer_name = #{updateSinger_name},</if>
+            <if test="updateCover_url != null">cover_url = #{updateCover_url},</if>
+            <if test="updateSinger_info != null">singer_info = #{updateSinger_info},</if>
+            <if test="updateLyric != null">lyric = #{updateLyric},</if>
+            <if test="updateSinger_photo != null">singer_photo = #{updateSinger_photo},</if>
+            <if test="updateStory != null">story = #{updateStory},</if>
+            <if test="updatePlay_url != null">play_url = #{updatePlay_url},</if>
+        </set>
+    </sql>
+
+    <update id="update">
+        update tb_music
+        <include refid="MusicUpdateCriteria"></include>
+        <include refid="MusicFindCriteria"></include>
+    </update>
+
+    <select id="query" resultMap="Music">
+        select * from tb_music
+        <include refid="MusicFindCriteria"></include>
+    </select>
+
+    <select id="detail" resultMap="Music">
+        select * from tb_music
+        <include refid="MusicFindCriteria"></include>
+        limit 1
+    </select>
+
+    <select id="count" resultType="Music">
+        select count(1) from tb_music
+        <include refid="MusicFindCriteria"></include>
+    </select>
+
+    <select id="maxId" resultType="int">
+        select Max(id) from tb_music
+    </select>
+
+</mapper>

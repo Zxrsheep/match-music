@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.soa.mapper.UserDao" >
+
+    <resultMap id="User" type="com.soa.entity.User">
+        <id column="id" property="id"/>
+        <result column="user_name" property="user_name"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="email" property="email"/>
+        <result column="create_date" property="create_date"/>
+    </resultMap>
+
+    <insert id="create" parameterType="com.soa.entity.User">
+        insert into tb_user(user_name,password,name,email,create_date)
+        values(#{user_name},#{password},#{name},#{email},now(),#{user_role},#{avatar},#{gender},#{tel})
+    </insert>
+
+    <insert id="delete">
+         delete from tb_user
+        <include refid="UserFindCriteria"/>
+    </insert>
+
+    <sql id="UserFindCriteria">
+        <where>
+            <if test="id != null and id != ''">and id = #{id}</if>
+            <if test="user_name != null and user_name != ''">and user_name = #{user_name}</if>
+            <if test="password != null and password != ''">and password = #{password}</if>
+            <if test="name != null and name != ''">and name = #{name}</if>
+            <if test="email != null and email != ''">and email = #{email}</if>
+            <if test="user_role != null and user_role != ''">and user_role = #{user_role}</if>
+            <if test="gender != null and gender != ''">and gender = #{gender}</if>
+            <if test="tel != null and tel != ''">and tel = #{tel}</if>
+        </where>
+    </sql>
+
+    <sql id="UserUpdateCriteria">
+        <set >
+            <if test="updateUser_name != null">user_name = #{updateUser_name},</if>
+            <if test="updatePassword != null">password = #{updatePassword},</if>
+            <if test="updateName != null">name = #{updateName},</if>
+            <if test="updateEmail != null">email = #{updateEmail},</if>
+            <if test="updateGender != null">gender = #{updateGender},</if>
+            <if test="updateTel != null">tel = #{updateTel},</if>
+        </set>
+    </sql>
+
+    <update id="update">
+        update tb_user
+        <include refid="UserUpdateCriteria"></include>
+        <include refid="UserFindCriteria"></include>
+    </update>
+
+    <select id="query" resultMap="User">
+        select * from tb_user
+        <include refid="UserFindCriteria"></include>
+    </select>
+
+    <select id="detail" resultMap="User">
+        select * from tb_user
+        <include refid="UserFindCriteria"></include>
+        limit 1
+    </select>
+
+    <select id="count" resultType="int">
+        select count(1) from tb_user
+        <include refid="UserFindCriteria"></include>
+    </select>
+
+</mapper>

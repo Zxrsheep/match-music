@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.like.mapper.LikeDao" >
+
+    <resultMap id="Like" type="com.like.entity.Like">
+        <id column="user_id" property="user_id"/>
+        <result column="music_id" property="music_id"/>
+        <result column="status" property="status"/>
+    </resultMap>
+
+    <insert id="create" parameterType="com.like.entity.Like">
+        insert into tb_like(user_id,music_id,status)
+        values(#{user_id},#{music_id},status)
+    </insert>
+
+    <insert id="delete">
+         delete from tb_like
+        <include refid="MusicFindCriteria"/>
+    </insert>
+
+    <sql id="MusicFindCriteria">
+        <where>
+            <if test="user_id != null and user_id != ''">and user_id = #{user_id}</if>
+            <if test="music_id != null and music_id != ''">and music_id = #{music_id}</if>
+        </where>
+    </sql>
+
+    <sql id="MusicUpdateCriteria">
+        <set >
+            <if test="updateUser_id != null">user_id = #{updateUser_id},</if>
+            <if test="updateMusic_id != null">music_id = #{updateMusic_id},</if>
+            <if test="updateStatus != null">status = updateStatus,</if>
+        </set>
+    </sql>
+
+    <update id="update">
+        update tb_like
+        <include refid="MusicUpdateCriteria"></include>
+        <include refid="MusicFindCriteria"></include>
+    </update>
+
+    <select id="query" resultMap="Like">
+        select * from tb_like
+        <include refid="MusicFindCriteria"></include>
+    </select>
+
+    <select id="detail" resultMap="Like">
+        select * from tb_like
+        <include refid="MusicFindCriteria"></include>
+        limit 1
+    </select>
+
+    <select id="count" resultType="int">
+        select count(*) from tb_like
+        <include refid="MusicFindCriteria"></include>
+    </select>
+
+</mapper>

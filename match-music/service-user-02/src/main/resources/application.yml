@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: springcloud-service-user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp1x79bp89k930d62ho.mysql.rds.aliyuncs.com:3306/match_music0?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC
+    username: db_user0
+    password: "Zxr123456"
+
+logging:
+  level:
+    com:
+      soa:
+        mapper: debug
+
+mybatis:
+  mapper-locations: com/soa/mapper/*.xml
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8761:8761/eureka,http://eureka8762:8762/eureka
+  

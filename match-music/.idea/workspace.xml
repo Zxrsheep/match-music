@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="D:\IDEA\apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\IDEA\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="14" />
+  </component>
+  <component name="ProjectId" id="1lMo3NwbzFmJb9QpLCB6bkEbRoY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-like/src/main/java/com/like/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.like.service" />
+      <recent name="com.like.mapper" />
+      <recent name="com.favorite.controller" />
+      <recent name="com.favorite.service" />
+      <recent name="com.favorite.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-like\src\main\java\com\like\mapper" />
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-favorite\src\main\java\com\favorite\mapper" />
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\framework" />
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa" />
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\mapper" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="user+id" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.service_like">
+    <configuration name="MusicApiGateway_Zuul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.music_zuul.MusicApiGateway_Zuul" />
+      <module name="music-api-gateway-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.music_zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicServer8761" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="music_server.MusicServer8761" />
+      <module name="music_eurekaserver" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka8761 " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="music_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicServer8762" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="music_server.MusicServer8762" />
+      <module name="music_eurekaserver" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka8762" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="music_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUser02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soa.ServiceUser02" />
+      <module name="service-user-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service_favorite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.favorite.service_favorite" />
+      <module name="service-favorite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.favorite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service_like" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.like.service_like" />
+      <module name="service-like" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.like.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soa.service_user" />
+      <module name="service-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soa.service_user" />
+      <module name="service-user-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MusicServer8761" />
+      <item itemvalue="Application.MusicServer8762" />
+      <item itemvalue="Application.service_user" />
+      <item itemvalue="Application.ServiceUser02" />
+      <item itemvalue="Application.service_favorite" />
+      <item itemvalue="Application.MusicApiGateway_Zuul" />
+      <item itemvalue="Application.service_like" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.service_like" />
+        <item itemvalue="Application.service_user" />
+        <item itemvalue="Application.service_favorite" />
+        <item itemvalue="Application.MusicApiGateway_Zuul" />
+        <item itemvalue="Application.ServiceUser02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="" />
+      <created>1607416129618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607416129618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1607417531837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1607417531837" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607849695070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607849695070" />
+    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1607845989137">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607845989137" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1608124770139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608124770139" />
+    <state x="410" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607959778302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="410" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607959778302" />
+    <state x="694" y="387" width="532" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607965472323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="387" width="532" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1607965472323" />
+    <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608041341161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608041341161" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608130161592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608130161592" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608113902937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608113902937" />
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1608310706460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706460" />
+    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1608310706459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706459" />
+    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1608310706459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706459" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1608310706460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706460" />
+    <state width="1623" height="274" key="GridCell.Tab.1.bottom" timestamp="1607856488374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488374" />
+    <state width="1623" height="274" key="GridCell.Tab.1.center" timestamp="1607856488373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488373" />
+    <state width="1623" height="274" key="GridCell.Tab.1.left" timestamp="1607856488373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488373" />
+    <state width="1623" height="274" key="GridCell.Tab.1.right" timestamp="1607856488374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1623" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488374" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1608460509467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
+    <state x="731" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607852170226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607852170226" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1607777859458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607777859458" />
+    <state x="434" y="361" key="new project wizard" timestamp="1608041012815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="434" y="361" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1608041012815" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1608310254584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608310254584" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607777771204">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607777771204" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/match_music$service_user_02.ic" NAME="service_user_02 Coverage Results" MODIFIED="1607843958924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.soa.*</FILTER>
+    </SUITE>
+  </component>
+</project>

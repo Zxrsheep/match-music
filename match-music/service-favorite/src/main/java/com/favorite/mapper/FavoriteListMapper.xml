@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.favorite.mapper.FavoriteListDao" >
+
+    <resultMap id="FavoriteList" type="com.favorite.entity.FavoriteList">
+        <id column="id" property="id"/>
+        <result column="user_id" property="user_id"/>
+        <result column="name" property="name"/>
+    </resultMap>
+
+    <insert id="create" parameterType="com.favorite.entity.FavoriteList">
+        insert into favorite_list(user_id,name)
+        values(#{user_id},#{name})
+    </insert>
+
+    <insert id="delete">
+         delete from favorite_list
+        <include refid="ListFindCriteria"/>
+    </insert>
+
+    <sql id="ListFindCriteria">
+        <where>
+            <if test="id != null and id != ''">and id = #{id}</if>
+            <if test="user_id != null and user_id != ''">and user_id = #{user_id}</if>
+            <if test="name != null and name != ''">and name = #{name}</if>
+        </where>
+    </sql>
+
+    <sql id="ListUpdateCriteria">
+        <set >
+            <if test="updateUser_id != null">user_id = #{updateUser_id},</if>
+            <if test="updateName != null">name = #{updateName},</if>
+        </set>
+    </sql>
+
+    <update id="update">
+        update favorite_list
+        <include refid="ListUpdateCriteria"></include>
+        <include refid="ListFindCriteria"></include>
+    </update>
+
+    <select id="query" resultMap="FavoriteList">
+        select * from favorite_list
+        <include refid="ListFindCriteria"></include>
+    </select>
+
+    <select id="detail" resultMap="FavoriteList">
+        select * from favorite_list
+        <include refid="ListFindCriteria"></include>
+        limit 1
+    </select>
+</mapper>

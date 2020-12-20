@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="music-api-gateway-zuul" />
+        <module name="music_eurekaserver" />
+        <module name="service-user-02" />
+        <module name="service-user" />
+        <module name="service-favorite" />
+        <module name="service-consumer" />
+        <module name="service-music" />
+        <module name="service-like" />
+        <module name="music_service_user" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="music-api-gateway-zuul" options="-parameters" />
+      <module name="music_eurekaserver" options="-parameters" />
+      <module name="service-consumer" options="-parameters" />
+      <module name="service-favorite" options="-parameters" />
+      <module name="service-like" options="-parameters" />
+      <module name="service-music" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="service-user-02" options="-parameters" />
+    </option>
+  </component>
+</project>
