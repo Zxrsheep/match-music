@@ -3,8 +3,49 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="" />
+    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/mapper/NoticeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/entity/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/mapper/NoticeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../教程/springboot教程/代码/tx_sboot/java_spi/ali-pay/ali-pay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../教程/springboot教程/代码/tx_sboot/java_spi/main-test/main-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../资料/04-springcloud-hystrix-dashboard/04-springcloud-hystrix-dashboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../资料/05-springcloud-service-feign/05-springcloud-service-feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/TestController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +58,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,14 +75,18 @@
     <option name="jreName" value="14" />
   </component>
   <component name="ProjectId" id="1lMo3NwbzFmJb9QpLCB6bkEbRoY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-like/src/main/java/com/like/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/mapper" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,18 +94,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.like.service" />
-      <recent name="com.like.mapper" />
-      <recent name="com.favorite.controller" />
-      <recent name="com.favorite.service" />
-      <recent name="com.favorite.mapper" />
+      <recent name="com.consumer.Controller" />
+      <recent name="com.consumer.entity" />
+      <recent name="com.soa.controller" />
+      <recent name="com.soa.service" />
+      <recent name="com.soa.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\mapper" />
+      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user\src\main\java\com\soa\mapper" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-like\src\main\java\com\like\mapper" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-favorite\src\main\java\com\favorite\mapper" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\framework" />
-      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa" />
-      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\mapper" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -72,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.service_like">
+  <component name="RunManager" selected="Application.service_user">
     <configuration name="MusicApiGateway_Zuul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.music_zuul.MusicApiGateway_Zuul" />
       <module name="music-api-gateway-zuul" />
@@ -190,8 +238,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.service_like" />
         <item itemvalue="Application.service_user" />
+        <item itemvalue="Application.service_like" />
         <item itemvalue="Application.service_favorite" />
         <item itemvalue="Application.MusicApiGateway_Zuul" />
         <item itemvalue="Application.ServiceUser02" />
@@ -209,6 +257,20 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1607417531837">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -222,10 +284,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607845989137" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1608124770139">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1608461960306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608124770139" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608461960306" />
     <state x="410" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607959778302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -246,22 +308,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608113902937" />
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1608310706460">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1608463861308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706460" />
-    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1608310706459">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861308" />
+    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1608463861307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706459" />
-    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1608310706459">
+    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861307" />
+    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1608463861307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706459" />
-    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1608310706460">
+    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861307" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1608463861308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608310706460" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861308" />
     <state width="1623" height="274" key="GridCell.Tab.1.bottom" timestamp="1607856488374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,6 +344,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608462003803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608462003803" />
     <state x="731" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607852170226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

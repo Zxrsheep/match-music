@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.soa.mapper.NoticeDao" >
+
+    <resultMap id="Notice" type="com.soa.entity.Notice">
+        <id column="id" property="id"/>
+        <result column="content" property="content"/>
+        <result column="date" property="date"/>
+    </resultMap>
+
+    <insert id="create" parameterType="com.soa.entity.Notice">
+        insert into tb_notice(content,date)
+        values(#{content},now())
+    </insert>
+
+    <insert id="delete">
+         delete from tb_notice
+        <include refid="ContentFindCriteria"/>
+    </insert>
+
+    <sql id="ContentFindCriteria">
+        <where>
+            <if test="id != null and id != ''">and id = #{id}</if>
+        </where>
+    </sql>
+
+    <sql id="ContentUpdateCriteria">
+        <set >
+            <if test="updateContent != null">content = #{updateContent},</if>
+            <if test="updateDate != null">date = now(),</if>
+        </set>
+    </sql>
+
+    <update id="update">
+        update tb_notice
+        <include refid="ContentUpdateCriteria"></include>
+        <include refid="ContentFindCriteria"></include>
+    </update>
+
+    <select id="query" resultMap="Notice">
+        select * from tb_notice
+        <include refid="ContentFindCriteria"></include>
+    </select>
+
+    <select id="detail" resultMap="Notice">
+        select * from tb_notice
+        <include refid="ContentFindCriteria"></include>
+    </select>
+
+</mapper>
