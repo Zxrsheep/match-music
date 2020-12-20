@@ -22,29 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/entity/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/entity/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/mapper/NoticeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/entity/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/mapper/NoticeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/mapper/NoticeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../教程/springboot教程/代码/tx_sboot/java_spi/ali-pay/ali-pay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../教程/springboot教程/代码/tx_sboot/java_spi/main-test/main-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/04-springcloud-hystrix-dashboard/04-springcloud-hystrix-dashboard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../资料/05-springcloud-service-feign/05-springcloud-service-feign.iml" afterDir="false" />
+    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="公告模块完善，加入到user微服务中。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite.rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +235,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607416129618</updated>
     </task>
+    <task id="LOCAL-00001" summary="公告模块完善，加入到user微服务中。">
+      <created>1608463921998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608463921998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +257,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="公告模块完善，加入到user微服务中。" />
+    <option name="LAST_COMMIT_MESSAGE" value="公告模块完善，加入到user微服务中。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1607417531837">
@@ -280,6 +269,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607849695070" />
+    <state x="669" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608464190255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608464190255" />
     <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1607845989137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -344,10 +337,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608462003803">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608464207601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608462003803" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608464207601" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608464157335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608464157335" />
     <state x="731" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607852170226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
