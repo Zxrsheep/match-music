@@ -1,5 +1,6 @@
 package com.soa.service;
 
+import com.github.pagehelper.PageHelper;
 import com.soa.entity.Notice;
 import com.soa.entity.User;
 import com.soa.mapper.NoticeDao;
@@ -28,6 +29,11 @@ public class NoticeService {
     }
 
     public List<Notice> query(Notice notice){
+        return noticeDao.query(Maps.build().beanToMap(notice));
+    }
+
+    public List<Notice> page(Notice notice){
+        PageHelper.startPage(notice.getPage(),notice.getLimit());
         return noticeDao.query(Maps.build().beanToMap(notice));
     }
 

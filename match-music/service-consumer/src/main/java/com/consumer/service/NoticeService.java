@@ -22,4 +22,7 @@ public interface NoticeService {
     @GetMapping("/notice")
     public Result query(@RequestParam int id);
 
+    @GetMapping("/noticeByPage")
+    public Result page(@RequestParam int pageSize, @RequestParam int pageNum);
+
 }

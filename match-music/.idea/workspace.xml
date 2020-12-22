@@ -22,9 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="公告模块完善，加入到user微服务中。">
+    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改notice，增加分页。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,10 +264,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="公告模块完善，加入到user微服务中。" />
-    <option name="LAST_COMMIT_MESSAGE" value="公告模块完善，加入到user微服务中。" />
+    <MESSAGE value="修改notice，增加分页。" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改notice，增加分页。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1607417531837">
@@ -301,22 +312,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608113902937" />
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1608463861308">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1608613167960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861308" />
-    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1608463861307">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
+    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1608613167960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861307" />
-    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1608463861307">
+    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
+    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1608613167960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861307" />
-    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1608463861308">
+    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1608613167960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608463861308" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
     <state width="1623" height="274" key="GridCell.Tab.1.bottom" timestamp="1607856488374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

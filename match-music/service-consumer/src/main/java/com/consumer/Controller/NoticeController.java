@@ -4,6 +4,7 @@ import com.consumer.entity.Notice;
 import com.consumer.service.NoticeService;
 import com.consumer.utils.Result;
 import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -43,6 +44,16 @@ public class NoticeController {
     @GetMapping("/notice")
     public Result query(@RequestParam("id") int id){
         return noticeService.query(id);
+    }
+
+    @ApiOperation(value = "分页查询",notes = "分页查询，输入对应的Size以及Num")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "pageSize", value = "页面大小",required = true,dataType = "int"),
+            @ApiImplicitParam(name = "pageNum", value = "页数",required = true,dataType = "int")
+    })
+    @GetMapping("/noticeByPage")
+    public Result page(@RequestParam("pageSize") int pageSize, @RequestParam("pageNum") int pageNum){
+        return noticeService.page(pageSize,pageNum);
     }
 
 }

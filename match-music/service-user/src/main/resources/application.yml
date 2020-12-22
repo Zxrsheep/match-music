@@ -19,6 +19,8 @@ logging:
 
 mybatis:
   mapper-locations: com/soa/mapper/*.xml
+pagehelper:
+  helper-dialect: mysql
 
 eureka:
   client:
