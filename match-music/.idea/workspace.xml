@@ -24,6 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改了feign和网关集成后第一次调用必失败的问题。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.service_favorite">
+  <component name="RunManager" selected="Application.Feign_user">
+    <configuration name="Feign_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.consumer.Feign_user" />
+      <module name="service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MusicApiGateway_Zuul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.music_zuul.MusicApiGateway_Zuul" />
       <module name="music-api-gateway-zuul" />
@@ -135,19 +150,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="music_server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceUser02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soa.ServiceUser02" />
-      <module name="service-user-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,18 +213,18 @@
       <item itemvalue="Application.MusicServer8761" />
       <item itemvalue="Application.MusicServer8762" />
       <item itemvalue="Application.service_user" />
-      <item itemvalue="Application.ServiceUser02" />
       <item itemvalue="Application.service_favorite" />
       <item itemvalue="Application.MusicApiGateway_Zuul" />
       <item itemvalue="Application.service_like" />
+      <item itemvalue="Application.Feign_user" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.service_favorite" />
-        <item itemvalue="Application.service_user" />
-        <item itemvalue="Application.service_like" />
         <item itemvalue="Application.MusicApiGateway_Zuul" />
-        <item itemvalue="Application.ServiceUser02" />
+        <item itemvalue="Application.Feign_user" />
+        <item itemvalue="Application.service_user" />
+        <item itemvalue="Application.service_favorite" />
+        <item itemvalue="Application.service_like" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609388510047</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改了feign和网关集成后第一次调用必失败的问题。">
+      <created>1609391004373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609391004373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,22 +327,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609227428988" />
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1609251827324">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1609393082722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827324" />
-    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1609251827324">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
+    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1609393082722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827324" />
-    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1609251827323">
+    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
+    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1609393082722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827323" />
-    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1609251827324">
+    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1609393082722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827324" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
     <state width="1623" height="274" key="GridCell.Tab.1.bottom" timestamp="1607856488374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,10 +363,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609388519311">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609391006290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609388519311" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609391006290" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608464157335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

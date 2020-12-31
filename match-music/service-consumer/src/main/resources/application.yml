@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: springcloud-consumer-user-feign
+  main:
+    allow-bean-definition-overriding: true
 
 eureka:
   client:
@@ -15,10 +17,11 @@ feign:
     enabled: false
 
 
+
 ribbon:
   # 饥饿加载
   eager-load:
     # 是否开启饥饿加载
     enabled: true
     # 饥饿加载的服务
-    clients: springcloud-service-user,
+    clients: springcloud-service-user
