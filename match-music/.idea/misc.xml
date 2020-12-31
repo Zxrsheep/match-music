@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/service-music/pom.xml" />
         <option value="$PROJECT_DIR$/service-favorite/pom.xml" />
         <option value="$PROJECT_DIR$/service-like/pom.xml" />
+        <option value="$PROJECT_DIR$/music-eureka-server1/pom.xml" />
+        <option value="$PROJECT_DIR$/music-eureka-server2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

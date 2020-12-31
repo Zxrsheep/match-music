@@ -14,3 +14,11 @@ feign:
   hystrix:
     enabled: false
 
+
+ribbon:
+  # 饥饿加载
+  eager-load:
+    # 是否开启饥饿加载
+    enabled: true
+    # 饥饿加载的服务
+    clients: springcloud-service-user,

@@ -23,17 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改notice，增加分页。">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/NoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/NoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/NoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service/NoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service/NoticeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/src/main/java/music_server/MusicServer8761.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/src/main/java/music_server/MusicServer8762.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/src/main/resources/application-eureka8761.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/src/main/resources/application-eureka8762.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_eurekaserver/src/test/java/music_server/MusicServerApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,7 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="14" />
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1lMo3NwbzFmJb9QpLCB6bkEbRoY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -75,7 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/music-eureka-server2/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -83,10 +90,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soa.service" />
+      <recent name="com.soa.controller" />
       <recent name="com.consumer.Controller" />
       <recent name="com.consumer.entity" />
-      <recent name="com.soa.controller" />
-      <recent name="com.soa.service" />
       <recent name="com.soa.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -109,7 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.service_user">
+  <component name="RunManager" selected="Application.service_favorite">
     <configuration name="MusicApiGateway_Zuul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.music_zuul.MusicApiGateway_Zuul" />
       <module name="music-api-gateway-zuul" />
@@ -125,7 +132,7 @@
     </configuration>
     <configuration name="MusicServer8761" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="music_server.MusicServer8761" />
-      <module name="music_eurekaserver" />
+      <module name="music-eureka-server1" />
       <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka8761 " />
       <extension name="coverage">
         <pattern>
@@ -139,7 +146,7 @@
     </configuration>
     <configuration name="MusicServer8762" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="music_server.MusicServer8762" />
-      <module name="music_eurekaserver" />
+      <module name="music-eureka-server2" />
       <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka8762" />
       <extension name="coverage">
         <pattern>
@@ -227,9 +234,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.service_favorite" />
         <item itemvalue="Application.service_user" />
         <item itemvalue="Application.service_like" />
-        <item itemvalue="Application.service_favorite" />
         <item itemvalue="Application.MusicApiGateway_Zuul" />
         <item itemvalue="Application.ServiceUser02" />
       </list>
@@ -251,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608463921998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修改notice，增加分页。">
+      <created>1608613445331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608613445331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,30 +318,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608041341161" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608130161592">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608613256338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608130161592" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608113902937">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608613256338" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609227428988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608113902937" />
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1608613167960">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609227428988" />
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1609251827324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
-    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1608613167960">
+    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827324" />
+    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1609251827324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
-    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1608613167960">
+    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827324" />
+    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1609251827323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
-    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1608613167960">
+    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827323" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1609251827324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608613167960" />
+    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609251827324" />
     <state width="1623" height="274" key="GridCell.Tab.1.bottom" timestamp="1607856488374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -348,10 +362,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608464207601">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608613457555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608464207601" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608613457555" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608464157335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

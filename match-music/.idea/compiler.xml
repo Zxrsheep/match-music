@@ -7,20 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="music-api-gateway-zuul" />
-        <module name="music_eurekaserver" />
         <module name="service-user-02" />
+        <module name="music-eureka-server2" />
         <module name="service-user" />
         <module name="service-favorite" />
+        <module name="music-eureka-server1" />
         <module name="service-consumer" />
         <module name="service-music" />
         <module name="service-like" />
         <module name="music_service_user" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="music_eurekaserver" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="music-api-gateway-zuul" options="-parameters" />
+      <module name="music-eureka-server1" options="-parameters" />
+      <module name="music-eureka-server2" options="-parameters" />
       <module name="music_eurekaserver" options="-parameters" />
       <module name="service-consumer" options="-parameters" />
       <module name="service-favorite" options="-parameters" />
