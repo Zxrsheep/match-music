@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改了feign和网关集成后第一次调用必失败的问题。">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)">
       <change beforePath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609391004373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)">
+      <created>1609393220743</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609393220743</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +289,8 @@
     <MESSAGE value="公告模块完善，加入到user微服务中。" />
     <MESSAGE value="修改notice，增加分页。" />
     <MESSAGE value="修改了feign和网关集成后第一次调用必失败的问题。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了feign和网关集成后第一次调用必失败的问题。" />
+    <MESSAGE value="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1607417531837">
@@ -363,10 +369,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609391006290">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609393225280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609391006290" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609393225280" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608464157335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
