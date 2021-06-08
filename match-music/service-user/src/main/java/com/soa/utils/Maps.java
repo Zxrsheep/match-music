@@ -24,7 +24,11 @@ public class Maps {
         paramMap.put(key,value);
     }
 
-    //build方法构建Maps对象
+    /**
+     *
+     * @param id 用户id
+     * @return 构建maps
+     */
     public static Maps build(int id){
         return new Maps("id",id);
     }
@@ -58,18 +62,23 @@ public class Maps {
         return paramMap;
     }
 
-    //对象转map集合
+    /**
+     *
+     * @param bean 模版参数
+     * @param <T> 模版
+     * @return 转换成map并返回
+     */
     public <T> Map<String,Object> beanToMapForUpdate(T bean){
         if(bean != null){
             BeanMap beanMap = BeanMap.create(bean);
             for (Object key : beanMap.keySet()) {
-                paramMap.put("update"+UpperFirstLetter(key+""),beanMap.get(key));
+                paramMap.put("update"+upperFirstLetter(key+""),beanMap.get(key));
             }
         }
         return paramMap;
     }
 
-    public static String UpperFirstLetter(String str){
+    public static String upperFirstLetter(String str){
         char[] chars = str.toCharArray();
         if(chars[0]>='a' && chars[0]<= 'z'){
             chars[0] = (char)(chars[0]-32);

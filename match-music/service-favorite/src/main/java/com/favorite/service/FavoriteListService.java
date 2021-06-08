@@ -39,8 +39,8 @@ public class FavoriteListService {
         return favoriteListDao.detail(Maps.build(id).getMap());
     }
 
-    public int count(int favorite_id){
-        return favoriteMusicDao.count(Maps.build("favorite_id",favorite_id).getMap());
+    public int count(int id){
+        return favoriteListDao.count(Maps.build(id).getMap());
     }
 
 }

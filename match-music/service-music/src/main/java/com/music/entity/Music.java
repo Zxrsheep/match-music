@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiModelProperty;
 @ApiModel(value = "Music 对象", description = "首页音乐推荐对象Music")
 public class Music extends Entity {
     @ApiModelProperty(value = "音乐主键id，UN AI",name = "id")
+    //{"id":1,"name":"xxx"}
     private int id;
     @ApiModelProperty(value = "对应推荐音乐的管理员id",name = "user_id",required = true)
         private int user_id;

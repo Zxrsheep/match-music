@@ -9,9 +9,9 @@
         <module name="music-api-gateway-zuul" />
         <module name="service-user-02" />
         <module name="music-eureka-server2" />
-        <module name="service-user" />
         <module name="service-favorite" />
         <module name="music-eureka-server1" />
+        <module name="service-user" />
         <module name="service-consumer" />
         <module name="service-music" />
         <module name="service-like" />

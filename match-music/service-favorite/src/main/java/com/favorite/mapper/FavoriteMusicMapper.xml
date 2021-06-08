@@ -51,7 +51,7 @@
     </select>
 
     <select id="count" resultType="int">
-        select count(*) from favorite_music
+        select count(1) from favorite_music
         <include refid="MusicFindCriteria"></include>
     </select>
 

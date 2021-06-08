@@ -14,5 +14,5 @@ public interface FavoriteListDao {
     public int update(Map<String,Object> paramMap);
     public List<FavoriteList> query(Map<String,Object> paramMap);
     public FavoriteList detail(Map<String,Object> paramMap);
-
+    public int count(Map<String,Object> paramMa);
 }

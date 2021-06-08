@@ -68,7 +68,6 @@ public class FavoriteListController {
     @ApiImplicitParam(name = "favorite_id", value = "收藏夹实体",dataType = "int")
     @GetMapping("/favoriteList/count")
     public Result count(@RequestParam("favorite_id") int favorite_id){
-        System.out.println(" t t t t.");
         int count = favoriteListService.count(favorite_id);
         return Result.ok(count);
     }

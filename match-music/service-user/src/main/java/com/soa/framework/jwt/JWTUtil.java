@@ -25,7 +25,10 @@ public class JWTUtil {
     }
 
     public static  String token = "token";
-    //生成token的秘钥，过期时间（一天）
+    /**
+     * 生成token的秘钥，过期时间（一天）
+     * soa_final为签名密码
+     */
     public static String jwt_SECRET = "soa_final";
     public static long jwt_expr = 3600*24*1000;
 
@@ -37,7 +40,7 @@ public class JWTUtil {
         Date now = new Date(nowMillis);
 
         //创建payload
-        Map<String,Object> claims = new HashMap<>();
+        Map<String,Object> claims = new HashMap<>(5);
         claims.put("id",user.getId());
         claims.put("user_name",user.getUser_name());
 
@@ -57,7 +60,10 @@ public class JWTUtil {
 
     }
 
-    //验证
+    /**
+     * @param token 传入前端token并进行身份验证
+     * @return 返回验证结果
+     */
     public static boolean verify(String token){
         try {
             if(token.isEmpty()){

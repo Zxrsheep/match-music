@@ -28,7 +28,7 @@
 
     <sql id="ListUpdateCriteria">
         <set >
-            <if test="updateUser_id != null">user_id = #{updateUser_id},</if>
+            <if test="updateUser_id != null and updateUser_id != ''">user_id = #{updateUser_id},</if>
             <if test="updateName != null">name = #{updateName},</if>
         </set>
     </sql>
@@ -48,5 +48,10 @@
         select * from favorite_list
         <include refid="ListFindCriteria"></include>
         limit 1
+    </select>
+
+    <select id="count" resultType="int">
+        select count(1) from favorite_list
+        <include refid="ListFindCriteria"></include>
     </select>
 </mapper>

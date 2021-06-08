@@ -22,7 +22,8 @@ public class LoginController {
     UserService userService;
 
     @ApiOperation(value = "登录",notes = "用户登录接口，成功后返回token")
-    @ApiImplicitParam(name = "user0", value = "对用户密码的user(只用于登录查询)，填写user_name，password"
+    @ApiImplicitParam(name = "user0", value = "对用户密码的user(只用于登录查询)，" +
+            "填写user_name，password {\"user_name\":\"RealAdmin\",\"password\":\"123456\"}"
             ,required = true,dataType = "User")
     @PostMapping("/login")
     public Result login(@RequestBody User user0){

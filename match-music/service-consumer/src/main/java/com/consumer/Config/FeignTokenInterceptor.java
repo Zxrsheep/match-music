@@ -22,7 +22,7 @@ public class FeignTokenInterceptor implements RequestInterceptor {
         if (headerNames != null) {
             while (headerNames.hasMoreElements()) {
                 String name = headerNames.nextElement();
-                if (name.equals("token")) {
+                if ("token".equals(name)) {
                     template.header(name,request.getHeader(name));
                 }
             }

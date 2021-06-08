@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.7943368" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -23,35 +27,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)">
-      <change beforePath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/match-music.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-favorite/src/test/java/com/favorite/service/FavoriteListServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-music/src/test/java/com/music/service/MusicServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/test/java/com/soa/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Config/FeignTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Config/FeignTokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/controller/FavoriteListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/controller/FavoriteListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteMusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteMusicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/service/FavoriteListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/service/FavoriteListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-favorite/src/test/java/service_user/ServiceUserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-like/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-like/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-music/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-music/src/main/java/com/music/controller/MusicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/java/com/music/controller/MusicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-music/src/main/java/com/music/entity/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/java/com/music/entity/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-music/src/main/java/com/music/mapper/MusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/java/com/music/mapper/MusicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-music/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-music/src/test/java/service_user/ServiceUserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/framework/jwt/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/framework/jwt/JWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/jwt/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/jwt/JWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/mvc/MyWebMvcConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/mvc/MyWebMvcConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service_user.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service_user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Maps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/test/java/service_user/ServiceUserApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$USER_HOME$/Downloads" openResultsInEditor="true" userTempatePath="" />
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Downloads" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="D:\IDEA\apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\IDEA\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="14" />
+    <option name="jreName" value="1.8" />
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1lMo3NwbzFmJb9QpLCB6bkEbRoY" />
@@ -63,29 +120,47 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/music-eureka-server2/pom.xml" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-user/src/main/java/com/soa" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.side.proportion" value="0.36713" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.soa.service" />
-      <recent name="com.soa.controller" />
-      <recent name="com.consumer.Controller" />
-      <recent name="com.consumer.entity" />
-      <recent name="com.soa.entity" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service-user/src/main/java/com/soa" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\mapper" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user\src\main\java\com\soa\mapper" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-like\src\main\java\com\like\mapper" />
       <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-favorite\src\main\java\com\favorite\mapper" />
-      <recent name="C:\Users\15287\Desktop\soa_final_saaiment\match-music\service-user-02\src\main\java\com\soa\framework" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.favorite.service" />
+      <recent name="com.music.service" />
+      <recent name="com.soa.service" />
+      <recent name="com.soa.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soa.Test" />
+      <recent name="com.soa.service" />
+      <recent name="com.soa.controller" />
+      <recent name="com.consumer.Controller" />
+      <recent name="com.consumer.entity" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -100,34 +175,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Feign_user">
-    <configuration name="Feign_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.consumer.Feign_user" />
-      <module name="service-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MusicApiGateway_Zuul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.music_zuul.MusicApiGateway_Zuul" />
-      <module name="music-api-gateway-zuul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.music_zuul.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FavoriteListServiceTest">
     <configuration name="MusicServer8761" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="music_server.MusicServer8761" />
       <module name="music-eureka-server1" />
       <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=eureka8761 " />
@@ -155,54 +206,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="service_favorite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.favorite.service_favorite" />
+    <configuration name="FavoriteListServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-favorite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.favorite.*" />
+          <option name="PATTERN" value="com.favorite.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.favorite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.favorite.service.FavoriteListServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="service_like" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.like.service_like" />
-      <module name="service-like" />
+    <configuration name="FavoriteListServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-favorite" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.like.*" />
+          <option name="PATTERN" value="com.favorite.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.favorite.service" />
+      <option name="MAIN_CLASS_NAME" value="com.favorite.service.FavoriteListServiceTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="service_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soa.service_user" />
-      <module name="service-user" />
+    <configuration name="MusicServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-music" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soa.*" />
+          <option name="PATTERN" value="com.music.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.music.service" />
+      <option name="MAIN_CLASS_NAME" value="com.music.service.MusicServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="service_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soa.service_user" />
-      <module name="service-user-02" />
+    <configuration name="MusicServiceTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-music" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soa.*" />
+          <option name="PATTERN" value="com.music.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.music.service" />
+      <option name="MAIN_CLASS_NAME" value="com.music.service.MusicServiceTest" />
+      <option name="METHOD_NAME" value="count" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicServiceTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.music.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.music.service" />
+      <option name="MAIN_CLASS_NAME" value="com.music.service.MusicServiceTest" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,19 +287,19 @@
     <list>
       <item itemvalue="Application.MusicServer8761" />
       <item itemvalue="Application.MusicServer8762" />
-      <item itemvalue="Application.service_user" />
-      <item itemvalue="Application.service_favorite" />
-      <item itemvalue="Application.MusicApiGateway_Zuul" />
-      <item itemvalue="Application.service_like" />
-      <item itemvalue="Application.Feign_user" />
+      <item itemvalue="JUnit.MusicServiceTest" />
+      <item itemvalue="JUnit.MusicServiceTest.query" />
+      <item itemvalue="JUnit.MusicServiceTest.count" />
+      <item itemvalue="JUnit.FavoriteListServiceTest.update" />
+      <item itemvalue="JUnit.FavoriteListServiceTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MusicApiGateway_Zuul" />
-        <item itemvalue="Application.Feign_user" />
-        <item itemvalue="Application.service_user" />
-        <item itemvalue="Application.service_favorite" />
-        <item itemvalue="Application.service_like" />
+        <item itemvalue="JUnit.FavoriteListServiceTest" />
+        <item itemvalue="JUnit.FavoriteListServiceTest.update" />
+        <item itemvalue="JUnit.MusicServiceTest" />
+        <item itemvalue="JUnit.MusicServiceTest.count" />
+        <item itemvalue="JUnit.MusicServiceTest.query" />
       </list>
     </recent_temporary>
   </component>
@@ -292,111 +369,27 @@
     <MESSAGE value="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)" />
     <option name="LAST_COMMIT_MESSAGE" value="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1607417531837">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1607417531837" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607849695070">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607849695070" />
-    <state x="669" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608464190255">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608464190255" />
-    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1607845989137">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607845989137" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1608461960306">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608461960306" />
-    <state x="410" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607959778302">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="410" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607959778302" />
-    <state x="694" y="387" width="532" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607965472323">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="694" y="387" width="532" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1607965472323" />
-    <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608041341161">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="674" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608041341161" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608613256338">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608613256338" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609227428988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609227428988" />
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom" timestamp="1609393082722">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
-    <state width="1623" height="274" key="GridCell.Tab.0.center" timestamp="1609393082722">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
-    <state width="1623" height="274" key="GridCell.Tab.0.left" timestamp="1609393082722">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
-    <state width="1623" height="274" key="GridCell.Tab.0.right" timestamp="1609393082722">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609393082722" />
-    <state width="1623" height="274" key="GridCell.Tab.1.bottom" timestamp="1607856488374">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488374" />
-    <state width="1623" height="274" key="GridCell.Tab.1.center" timestamp="1607856488373">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488373" />
-    <state width="1623" height="274" key="GridCell.Tab.1.left" timestamp="1607856488373">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488373" />
-    <state width="1623" height="274" key="GridCell.Tab.1.right" timestamp="1607856488374">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1623" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607856488374" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1608460509467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608460509467" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609393225280">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609393225280" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608464157335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608464157335" />
-    <state x="731" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607852170226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607852170226" />
-    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1607777859458">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607777859458" />
-    <state x="434" y="361" key="new project wizard" timestamp="1608041012815">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="434" y="361" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1608041012815" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1608310254584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608310254584" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607777771204">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607777771204" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/service/FavoriteListService.java</url>
+          <line>37</line>
+          <properties class="com.favorite.service.FavoriteListService" method="detail">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/match_music$service_user_02.ic" NAME="service_user_02 Coverage Results" MODIFIED="1607843958924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

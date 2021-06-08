@@ -34,7 +34,10 @@ public class MyWebMvcConfigurer implements WebMvcConfigurer {
                 .addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 
-    //解决跨域请求
+    /**
+     * 解决跨域请求
+     * @return 返回设置好的CorsFilter
+     */
     @Bean
     public CorsFilter corsFilter(){
 

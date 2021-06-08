@@ -37,7 +37,7 @@ public class JWTUtil {
         Date now = new Date(nowMillis);
 
         //创建payload
-        Map<String,Object> claims = new HashMap<>();
+        Map<String,Object> claims = new HashMap<>(5);
         claims.put("id",user.getId());
         claims.put("user_name",user.getUser_name());
 

@@ -1,7 +1,6 @@
 server:
   port: 8084
 
-
 spring:
   application:
     name: springcloud-service-favorite
@@ -14,7 +13,7 @@ spring:
 logging:
   level:
     com:
-      music:
+      favorite:
         mapper: debug
 
 mybatis:

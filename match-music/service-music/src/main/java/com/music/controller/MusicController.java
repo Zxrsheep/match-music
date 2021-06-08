@@ -57,7 +57,7 @@ public class MusicController {
     }
 
     @ApiOperation(value = "查询音乐信息",notes = "detail，根据id返回音乐信息")
-    @ApiImplicitParam(name = "id", value = "用户id",required = true,dataType = "int")
+    @ApiImplicitParam(name = "id", value = "音乐id",required = true,dataType = "int")
     @GetMapping("/music")
     public Result detail(@RequestParam("id") int id){
         Music music = musicService.detail(id);
@@ -68,7 +68,6 @@ public class MusicController {
     @ApiImplicitParam(name = "music", value = "音乐实体",dataType = "Music")
     @PostMapping("/music/count")
     public Result count(@RequestBody Music music){
-        System.out.println(" t t t t.");
         int count = musicService.count(music);
         return Result.ok(count);
     }

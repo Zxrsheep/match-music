@@ -14,7 +14,8 @@ import java.util.Map;
  *
  * 使用 feign客户端 绑定远程服务名称
  */
-@FeignClient(name = "springcloud-service-user",fallbackFactory = MyFallbackFactory.class,configuration = FeignTokenInterceptor.class)
+@FeignClient(name = "springcloud-service-user",
+        fallbackFactory = MyFallbackFactory.class,configuration = FeignTokenInterceptor.class)
 public interface UserService {
 
     @PostMapping("/user/create")

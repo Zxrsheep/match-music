@@ -49,30 +49,17 @@ public class UserController {
     }
 
 
-//    @ApiOperation(value = "查询信息",notes = "query查询，查询返回满足要求的所有list")
-//    @ApiImplicitParam(name = "user", value = "用户实体",dataType = "User")
-//    @GetMapping("/user/all")
-//    public Result query(@RequestBody User user){
-//        List<User> list = userService.query(user);
-//        return Result.ok(list);
-//    }
-
     @ApiOperation(value = "查询用户信息",notes = "detail，查询对应id的单个用户的信息")
     @ApiImplicitParam(name = "id", value = "用户id",required = true,dataType = "int")
     @GetMapping("/user")
     public Result detail(@RequestParam("id") int id){
         User user = userService.detail(id);
+        if (user==null){
+            return Result.fail("查询失败");
+        }
         return Result.ok(user);
     }
 
-//    @ApiOperation(value = "计数",notes = "count，查询满足对应要求的数量")
-//    @ApiImplicitParam(name = "user", value = "用户实体",dataType = "User")
-//    @GetMapping("/user/count")
-//    public Result count(@RequestBody User user){
-//        System.out.println(" t t t t.");
-//        int count = userService.count(user);
-//        return Result.ok(count);
-//    }
 
 
 

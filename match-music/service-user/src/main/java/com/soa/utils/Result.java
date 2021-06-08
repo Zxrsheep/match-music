@@ -8,7 +8,12 @@ public class Result {
     public String msg = "操作成功";
     public Object data = null;
 
-//构造重载
+    /**
+     * 重载
+     * @param status 返回状态这只
+     * @param msg 返回消息
+     * @param data 返回的主体数据
+     */
     public Result(int status, String msg, Object data) {
         this.status = status;
         this.msg = msg;
@@ -59,7 +64,11 @@ public class Result {
     }
 
 
-//成功响应状态
+    /**
+     *
+     * @param data 返回信息数据
+     * @return 通过构造Result格式返回
+     */
     public static Result ok(Object data){
         return new Result(data);
     }
@@ -76,7 +85,12 @@ public class Result {
         return new Result();
     }
 
-//失败响应
+    /**
+     *  失败返回
+     * @param status 错误状态
+     * @param msg 错误信息
+     * @return Result
+     */
     public static Result fail(int status,String msg){
         return new Result(status,msg,null);
     }
