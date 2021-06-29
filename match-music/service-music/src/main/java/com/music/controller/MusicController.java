@@ -76,7 +76,7 @@ public class MusicController {
 
     @ApiOperation(value = "提供最新的推荐音乐",notes = "不需要输入，直接给出最新音乐")
     @GetMapping("/music/new")
-    public Result count(){
+    public Result newest(){
         Music music = musicService.newMusic();
         return Result.ok(music);
     }

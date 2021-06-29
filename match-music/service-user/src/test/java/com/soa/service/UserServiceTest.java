@@ -16,7 +16,7 @@ class UserServiceTest {
     @Autowired
     UserService userService;
     String userName = "Stest";
-    String password = "111111";
+    String password = "";
     String loginUserName = "RealAdmin";
     String loginPassword = "123456";
 

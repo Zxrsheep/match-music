@@ -26,48 +26,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/match-music.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-favorite/src/test/java/com/favorite/service/FavoriteListServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-music/src/test/java/com/music/service/MusicServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/test/java/com/soa/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1b6a4100-5ade-4f28-9a72-8cc0b2087843" name="Default Changelist" comment="进行了一些改进，增加了User,Music,FavoriteList三个Service的Junit测试。">
+      <change afterPath="$PROJECT_DIR$/music-api-gateway-zuul/src/main/java/com/music_zuul/filter/MyWebMvcConfigurer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Config/FeignTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Config/FeignTokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/Controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-consumer/src/main/java/com/consumer/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/controller/FavoriteListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/controller/FavoriteListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteListMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteMusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/mapper/FavoriteMusicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/service/FavoriteListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/java/com/favorite/service/FavoriteListService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-favorite/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-favorite/src/test/java/service_user/ServiceUserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-like/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-like/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-music/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music-api-gateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/music-api-gateway-zuul/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-music/src/main/java/com/music/controller/MusicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/java/com/music/controller/MusicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-music/src/main/java/com/music/entity/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/java/com/music/entity/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-music/src/main/java/com/music/mapper/MusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/java/com/music/mapper/MusicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-music/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-music/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-music/src/test/java/service_user/ServiceUserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/framework/jwt/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user-02/src/main/java/com/soa/framework/jwt/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/jwt/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/jwt/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/mvc/MyWebMvcConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/mvc/MyWebMvcConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service_user.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/service_user.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Maps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/utils/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/test/java/service_user/ServiceUserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/mvc/TokenIntercetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/soa/framework/mvc/TokenIntercetor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/test/java/com/soa/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/test/java/com/soa/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +102,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36713" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,11 +122,11 @@
       <recent name="com.soa.controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.music_zuul.filter" />
       <recent name="com.soa.Test" />
       <recent name="com.soa.service" />
       <recent name="com.soa.controller" />
       <recent name="com.consumer.Controller" />
-      <recent name="com.consumer.entity" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -175,7 +141,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FavoriteListServiceTest">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="MusicServer8761" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -199,6 +165,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="music_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service_music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.music.service_music" />
+      <module name="service-music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.music.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service_user" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soa.service_user" />
+      <module name="service-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,49 +229,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-music" />
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.music.service.*" />
+          <option name="PATTERN" value="com.soa.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.music.service" />
-      <option name="MAIN_CLASS_NAME" value="com.music.service.MusicServiceTest" />
+      <option name="PACKAGE_NAME" value="com.soa.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soa.service.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MusicServiceTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-music" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.music.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.music.service" />
-      <option name="MAIN_CLASS_NAME" value="com.music.service.MusicServiceTest" />
-      <option name="METHOD_NAME" value="count" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MusicServiceTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-music" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.music.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.music.service" />
-      <option name="MAIN_CLASS_NAME" value="com.music.service.MusicServiceTest" />
-      <option name="METHOD_NAME" value="query" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -287,19 +247,19 @@
     <list>
       <item itemvalue="Application.MusicServer8761" />
       <item itemvalue="Application.MusicServer8762" />
-      <item itemvalue="JUnit.MusicServiceTest" />
-      <item itemvalue="JUnit.MusicServiceTest.query" />
-      <item itemvalue="JUnit.MusicServiceTest.count" />
+      <item itemvalue="Application.service_user" />
+      <item itemvalue="Application.service_music" />
       <item itemvalue="JUnit.FavoriteListServiceTest.update" />
       <item itemvalue="JUnit.FavoriteListServiceTest" />
+      <item itemvalue="JUnit.UserServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="Application.service_user" />
+        <item itemvalue="Application.service_music" />
         <item itemvalue="JUnit.FavoriteListServiceTest" />
         <item itemvalue="JUnit.FavoriteListServiceTest.update" />
-        <item itemvalue="JUnit.MusicServiceTest" />
-        <item itemvalue="JUnit.MusicServiceTest.count" />
-        <item itemvalue="JUnit.MusicServiceTest.query" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609393220743</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="进行了一些改进，增加了User,Music,FavoriteList三个Service的Junit测试。">
+      <created>1623157730522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623157730523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +334,8 @@
     <MESSAGE value="修改notice，增加分页。" />
     <MESSAGE value="修改了feign和网关集成后第一次调用必失败的问题。" />
     <MESSAGE value="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了feign和网关集成后第一次调用必失败的问题。(延迟超时时间)" />
+    <MESSAGE value="进行了一些改进，增加了User,Music,FavoriteList三个Service的Junit测试。" />
+    <option name="LAST_COMMIT_MESSAGE" value="进行了一些改进，增加了User,Music,FavoriteList三个Service的Junit测试。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
